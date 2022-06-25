@@ -1,0 +1,201 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="iFIx gadget fixing startup">
+    <meta name="author" content="Charles">
+    <title>KantaOnline/products</title>
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Style -->
+    <link href="any-product.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <script src="https://use.fontawesome.com/3903c9d7fd.js"></script>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="menu_list">
+          <span class="front fas fa-home"></span>
+          <a href="index.html" class="side">home</a>
+        </li>
+        <li class="menu_list">
+          <span class="front fas fa-info"></span>
+          <a href="about.html" class="side">about</a>
+        </li>
+        <li class="menu_list">
+          <span class="front fas fa-briefcase"></span>
+          <a href="Products.html" class="side">products</a>
+        </li>
+        <li class="menu_list">
+          <span class="front fas fa-paper-plane"></span>
+          <a href="contact.html" class="side">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <div id="container">
+
+        <div class="photobanner">
+
+          <a href="https://glimpse-hd.000webhostapp.com/"><img class="first" src="https://c2.staticflickr.com/9/8454/28951308921_6589e3f1d3_z.jpg"></a>
+
+          <a href="#"><img src="https://c3.staticflickr.com/9/8716/28407134794_bef4e3b216_z.jpg"></a>
+
+          <a href="#"><img src="https://c2.staticflickr.com/9/8334/28951307401_d8a7c852e9_z.jpg"></a>
+
+          <a href="#"><img src="https://c1.staticflickr.com/9/8190/28407132824_fdf7bfe154_z.jpg"></a>
+
+          <a href="#"><img src="https://c2.staticflickr.com/9/8210/28951305801_bfe7c0b346_z.jpg"></a>
+
+          <a href="#"><img src="https://c1.staticflickr.com/9/8716/28407131024_91c2626d3c_z.jpg"></a>
+
+          <a href="#"><img src="https://c2.staticflickr.com/9/8592/28951304321_a01fb808fb_z.jpg"></a>
+
+          <a href="#"><img src="https://c1.staticflickr.com/9/8869/28407129424_54ea0f3d5a_z.jpg"></a>
+
+          <a href="#"><img  src="https://c2.staticflickr.com/9/8454/28951308921_6589e3f1d3_z.jpg"></a>
+
+          <a href="#"><img src="https://c3.staticflickr.com/9/8716/28407134794_bef4e3b216_z.jpg"></a>
+
+          <a href="#"><img src="https://c2.staticflickr.com/9/8334/28951307401_d8a7c852e9_z.jpg"></a>
+
+          <a href="#"><img src="https://c1.staticflickr.com/9/8190/28407132824_fdf7bfe154_z.jpg"></a>
+
+          <a href="#"><img src="https://c2.staticflickr.com/9/8210/28951305801_bfe7c0b346_z.jpg"></a>
+        </div>
+      </div>
+    </header>
+
+    
+    <div class="intro">
+      <h2 class="contact-title">Shop Name</h2>
+      <p>A vanilla JavaScript shopping cart project.</p>
+
+      <div class="contact">
+        <h5 class="contact-title">Contact</h5>
+        <div class="contact-info">Mail: xyz@gmail.com</div>
+        <div class="contact-info">Tel: +xxxxxxxxx</div>
+      </div>
+    </div>
+
+
+    <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+     <div class="cart-modal-overlay">
+      <div class="cart-modal">
+        <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+          <span class="total-price">GHS0</span>
+          <h3 class="purchase-btn">Please contact dealer and agree on payment and delivery method. <b>NB: We are not affiliated to dealers in anyway. The transaction is <big><b>STRICTLY</b></big> between <big><b>YOU</b></big> and the <big><b>DEALER</b></b></big><br>Thank you for your purchase</h3>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--   end of cart modal -->
+    <div class="cart-btn">
+      <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+    </div>
+    <!--  products  -->
+    <div class="items-container">
+      <div class="card-1 card">
+        <img class="product-image" src="./img/image-1.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS300</span>
+      </div>
+      <div class="card-2 card">
+        <img class="product-image" src="./img/image-2.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS800</span>
+      </div>
+      <div class="card-3 card">
+        <img class="product-image" src="./img/image-3.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS500</span>
+      </div>
+      <div class="card-4 card">
+        <img class="product-image" src="./img/image-4.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS10</span>
+      </div>
+      <div class="card-5 card">
+        <img class="product-image" src="./img/image-5.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS300</span>
+      </div>
+      <div class="card-1 card">
+        <img class="product-image" src="./img/image-1.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS150</span>
+      </div>
+      <div class="card-2 card">
+        <img class="product-image" src="./img/image-2.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS300</span>
+      </div>
+      <div class="card-3 card">
+        <img class="product-image" src="./img/image-3.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS210</span>
+      </div>
+      <div class="card-4 card">
+        <img class="product-image" src="./img/image-4.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS50</span>
+      </div>
+      <div class="card-5 card">
+        <img class="product-image" src="./img/image-5.webp" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">GHS500</span>
+      </div>
+    </div>
+  </div>  
+</main>
+
+
+
+
+<script  src="js/script.js"></script>
+</body>
+<footer class="credit">
+  <span class="logo">
+      <b><span class="logo1"><p>Kanta<sup><b></b><span class="logo2">Online</span></sup></p></span></b>
+    </span>
+    <p class="copyright">&copy KantaOnline 2022 || </p>
+    <b>MAKE SURE YOU ARE SATISFIED WITH THE PRODUCT, PRICING AND DELIVERY METHOD BEFORE PAYMENT. KANTA ONLINE WILL NOT BE LIABLE FOR ANY ISSUES REGARDING PURCHASE. THANK YOU</b>
+</footer>
+</html>
+
+</html>

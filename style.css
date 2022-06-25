@@ -1,0 +1,257 @@
+/*navbar*/
+
+nav {
+    background: url(https://i.pinimg.com/originals/a0/44/ce/a044ce36b3fe2d9a7685cab11c7c5bf1.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    height: 300px;
+    margin-left: -35px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+    height: 100vh;
+}
+li.menu_list {
+    height: 85px;
+    width: 85px;
+    position: relative;
+}
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+li.menu_list .front {
+    background-color: #34465d;
+    color: #f0ad4e;
+    transform-origin: 0 0;
+}
+a.side {
+    background-color: #f0ad4e;
+    color: #FFF;
+    transform-origin: 0 0 85px;
+    transform: rotateY(-90deg);
+}
+li.menu_list:hover a.side {
+    transform: rotateY(0deg);
+    color: #34465d;
+}
+li.menu_list:hover .front {
+    transform: rotateY(90deg);
+    color: #fff;
+}
+
+#container {
+    padding-left: 100px;
+}
+
+.lead {
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.text-center {
+    margin-top: -350px;
+    width: 100%;
+}
+
+.card {
+    padding-top: -500px;
+    margin-bottom: 20px;
+}
+
+.venture-name {
+    color: #34465d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #34465d;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo1 {
+    color: #34465d;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.logo2 {
+    color: #f0ad4e;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+header {
+    background-image: url(../images/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+}
+
+.card-body {
+    color: #34465d;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.agent-img {
+    border: 1px solid black;
+}
+
+.num-of-views{
+    width: 25px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: 200px;
+}
+
+.album {
+    margin-top: 20px;
+    background: url();
+}
+
+footer {
+    color: #fff;
+    background-color: #dee0df;
+}
+
+.arrow-up {
+    width: 2rem;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.fa-cart-shopping {
+    font-size: 100px;
+}
+
+/*3rd caousel*/
+
+#container {
+   width: 100%;
+   overflow: hidden;
+   margin: 50px auto;
+   background: transparent;
+   margin-top: -300px;
+}
+
+/*photobanner*/
+
+.photobanner {
+    height: 220px;
+    width: 8640px;
+    margin-bottom: 80px;
+}
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 50s linear infinite;
+    -moz-animation: bannermove 50s linear infinite;
+    -ms-animation: bannermove 50s linear infinite;
+    -o-animation: bannermove 50s linear infinite;
+    animation: bannermove 50s linear infinite;
+}
+
+@keyframes "bannermove" {
+   0% {
+    margin-left: 0px;
+}
+100% {
+    margin-left: -5746px;
+}
+
+}
+
+@-moz-keyframes bannermove {
+   0% {
+     margin-left: 0px;
+ }
+ 100% {
+     margin-left: -5746px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+ }
+ 100% {
+     margin-left: -5746px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+ }
+ 100% {
+     margin-left: -5746px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+   0% {
+     margin-left: 0px;
+ }
+ 100% {
+     margin-left: -5746px;
+ }
+
+}
+.photobanner {
+    height: 242px;
+    width: 8640px;
+    margin-bottom: 80px;
+}
+
+.photobanner img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
